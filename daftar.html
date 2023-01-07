@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="daftar.css" />
+    <title>Gema Oasis Mansa</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-kiri">
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="daftar.html" class="nav-home">Daftar</a>
+        <a href="berita.html">Berita</a>
+      </div>
+      <div class="nav-kiri" id="a-kanan">
+        <a href="masuk.html">Login</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="box" id="daftarBox">
+        <h2>Formulir Pendaftaran Marching Band Gema Oasis Mansa</h2>
+        <hr />
+        <form action="index.html">
+          <div class="bagi1">
+            <div class="inputBox">
+              <label for="nama">Nama Lengkap<span>*</span></label
+              ><br />
+              <input
+                type="text"
+                name="nama"
+                id="cab"
+                placeholder="Masukkan Nama Anda.."
+                autocomplete="off"
+                autofocus
+                required
+              />
+            </div>
+            <div class="inputBox">
+              <label for="email">Email<span>*</span></label
+              ><br />
+              <input
+                type="email"
+                name="email"
+                id="cab"
+                placeholder="Masukkan Email Anda.."
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="inputBox">
+              <label for="password">Password<span>*</span></label
+              ><br />
+              <input
+                type="password"
+                name="password"
+                id="cab"
+                placeholder="Masukkan Password Anda.."
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="inputBox">
+              <label for="kelas">Kelas<span>*</span></label
+              ><br />
+              <input
+                type="text"
+                name="kelas"
+                id="cab"
+                placeholder="Contoh: '11 IPS 2'"
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+          <div class="bagi2">
+            <div class="inputRadio">
+              <label for="kelamin">Jenis Kelamin</label>
+              <select name="kelamin">
+                <option>Laki-laki</option>
+                <option>Perempuan</option>
+              </select>
+            </div>
+            <div class="inputRadio">
+              <p>Pernah Mengikuti Marching Band</p>
+              <input type="radio" name="Ikuti" id="pernah" checked />Pernah
+              <input type="radio" name="Ikuti" id="belum" />Tidak Pernah
+            </div>
+            <div class="inputRadio" id="pegang">
+              <label for="megang">Pernah Memakai Alat</label><br />
+              <input
+                type="text"
+                name="megang"
+                id="cab"
+                autocomplete="off"
+                placeholder="Contoh: 'Snare'"
+              />
+            </div>
+            <div class="inputRadio" id="pegang">
+              <label for="megang"
+                >Penyakit yang pernah diderita<span>*</span></label
+              ><br />
+              <input
+                type="text"
+                name="megang"
+                id="cab"
+                placeholder="Contoh: 'sesak napas'"
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+          <br />
+          <div class="bagi3">
+            <div class="inputBox">
+              <label for="alasan">Alasan Ingin Bergabung<span>*</span></label
+              ><br />
+              <textarea
+                name="alasan"
+                id="cab"
+                cols="50"
+                rows="5"
+                placeholder="Masukkan Alasan Anda.."
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="bagi4">
+            <div class="inputRadio">
+              <p>Tertarik Masuk Divisi</p>
+              <input type="checkbox" name="tertarik" id="perkusi" />
+              <label for="perkusi">Percussion</label><br />
+              <input type="checkbox" name="tertarik" id="pit" />
+              <label for="pit">PIT</label><br />
+              <input type="checkbox" name="tertarik" id="tiup" />
+              <label for="tiup">Brass</label><br />
+              <input type="checkbox" name="tertarik" id="cg" />
+              <label for="cg">Color Guard</label><br />
+            </div>
+          </div>
+          <div class="bagi5">
+            <div class="inputBox">
+              <label for="file">Foto Profil<span>*</span></label
+              ><br />
+              <input type="file" id="file" accept="image/*" required<br />
+            </div>
+            <div class="inputBox">
+              <input type="checkbox" name="check" id="bersedia" required />
+              <label for="bersedia" id="bersedia"
+                >Dengan ini siap bergabung dengan Marching Band Gema Oasis
+                Samarinda<span>*</span> </label
+              ><br />
+            </div>
+          </div>
+          <div class="bagi6">
+            <div class="inputRadio">
+              <input type="submit" name="sign-in" value="Sign In" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="container">
+          <div class="footer-kiri">
+            <p>
+              Copyright ©2022 Situs web dimiliki & dikelola Oasis Mansa / Ahmad
+              Lutfi
+            </p>
+          </div>
+          <div class="footer-kanan">
+            <a href="https://www.instagram.com/mboasismansa/" target="_blank"
+              >Instagram</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
